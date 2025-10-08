@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/alise/ros2_ws/install/action_cleaning_robot/lib/action_cleaning_robot
+exec python3 cleaning_client.py "$@"
