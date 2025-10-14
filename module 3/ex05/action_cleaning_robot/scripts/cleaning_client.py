@@ -45,7 +45,7 @@ class CleaningClient(Node):
                 print('Task sequence failed')
                 return False
                 
-        print('\n🎉 All tasks completed successfully!')
+        print('\n All tasks completed successfully!')
         return True
         
     def _send_goal(self, task_type, area_size, target_x, target_y):
